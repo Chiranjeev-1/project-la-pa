@@ -1,0 +1,266 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>Fable-Tales</title>
+    
+
+    <style>
+      body{
+        overflow: auto;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+
+        
+      }
+      .logo{
+        font-family:OpenSans;
+        font-weight: 650;
+        color: white;
+        
+        text-align: center;
+        
+        font-size: 25px;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        
+        
+        background-color: rgb(23, 23, 23);
+        height: 100px;
+        
+        top: 0;
+        position: fixed;
+        width: 100%;
+      }
+  
+  
+      .button {
+        height: 50px;
+        
+        background-color: transparent;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        border-color: transparent;
+        color: white;
+        font-family: rawkbrush;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 17px;
+        width: 100%;
+        align-items: center;
+      }
+      .more{
+        color: white;
+        font-family: rawkbrush;
+        font-weight: 600;
+        font-size: 17px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        text-align: center;
+        border-radius: 5px;
+        background-color: crimson;
+        width: 100%;
+        height: 50px;
+        border-color: transparent;
+        cursor: pointer;
+        
+      }
+      .more:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+        border: solid;
+        border-color: rgb(255, 251, 252);
+
+      }
+      .more:active{
+        opacity: 0.6;
+      }
+      .button:hover {
+        border: solid;
+        border-width: 1px;
+        border-color: white;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .left-header {
+        display: flex;
+        width: 500px;
+        flex-direction: row;
+        justify-content: space-around;
+  }
+  .main{
+        
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        
+        min-width: 400px;
+        
+        background-color: rgb(34,34,34);
+        padding-top: 80px;
+        align-items: center;
+        padding-bottom: 20px;
+        width: 100%;
+        
+        
+        
+      }
+      .info{
+        display: inline-block;
+        color: white;
+        height: fit-content;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 200px;
+        text-align-last:center ;
+        
+        
+
+
+      }
+      .data{
+        flex:1;
+        
+        align-items: center;
+        
+        
+
+      }
+      .illustration{
+        align-items: baseline;
+        flex: 1;
+        
+        
+        
+        
+      }
+      
+      .illust{
+        display: flex;
+        margin: auto auto;
+        height: 400px;
+        width: 400px;
+        
+
+        
+        
+ 
+      }
+      .special{
+        padding-left: 25px;
+        padding-top: 10px;
+        margin-top: 10px;
+        
+      }
+      .Subscribe{
+        color: white;
+        text-align: center;
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: crimson;
+        font-size: 30px;
+        font-family: rawkbrush;
+        border: 0px;
+        margin:0 auto;
+        display:block;
+        
+      }
+      .Subscribe:hover{
+        opacity: 0.8;
+      }
+      .Subscribe:active{
+        opacity: 0.5;
+      }
+      .arrow{
+        
+        vertical-align: middle;
+        width: 25px;
+        
+      }
+      .connect-line{
+        text-align: center;
+      }
+      .conclusion{
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 300px;
+        background-color: white;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+      }
+      .footer{
+        background-color: rgb(45, 44, 44);
+        height: 50px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 25px;
+        color: rgb(255, 255, 255);
+        
+      }
+      .connect{
+        width: 40px;
+        padding-left: 50%;
+        
+      }
+     
+      
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"><p><img src="logo.png" style="width: 150px;" alt=""></p></div>
+      <div style="flex: 1; max-width: 800px;background-color: white;"></div>
+      <div class="left-header" >
+        
+      <div><button class="button">Home</button></div>
+      <div><button class="button">Register</button></div>
+      <div><button class="button">About</button></div>
+      <div>
+        <button class="more" >
+          More
+        </button>
+      </div>
+    </div>
+    </div>
+
+
+      
+      
+    </div>
+    <div class="main">
+      <div class="data">
+        <div class="info"><p style="font-size: 40px; font-family:OpenSans; font-weight:700;">Welcome to Fable-Tales Book Club!! </p> <br><p  style="font-size: 20px; font-family: OpenSans; font-weight: 550;"> Discover the glory of novels from all time. 
+          Subscribe to our newsletter to receive monthly and weekly recommendation based on your interest!
+          A perfect destination for book readers and those who wish to start the reading journey!
+          We have team of experts who tirelessly work to provide optimal content as per your interest. </p></div>
+        <div class="special">  <button class="Subscribe">Subscribe  <img class="arrow" src="arrow-circ.png" alt="Reload" ></button></div>
+      </div>
+      <div class="illustration">
+        <img class="illust" src="Reading book-pana.png" alt="">
+      </div>
+    </div>
+      
+      <div class="conclusion"> <div><a href="https://www.facebook.com/" target="blank"><img src="23-231445_facebook-logo-facebook-logo-transparent-white.png" alt="" class="connect"></a></div> <div><a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="connect" src="instagram-217-734871.webp" alt=""></a></div> <div><a href="https://www.linkedin.com/in/chiranjeev-mishra-005b30236/" target="_blank"><img class="connect" src="linkedin.png" alt=""></a></div></div> 
+      <div class="footer">  Created by <a href="https://www.linkedin.com/in/chiranjeev-mishra-005b30236/" target="_blank"> Chiranjeev Mishra</a></div>
+      
+
+    
+  </body>
+</html>
